@@ -6,3 +6,6 @@ def subtrair(x,y):
 
 def mult():
     pass
+
+def divs(x,y):
+    return x / y
