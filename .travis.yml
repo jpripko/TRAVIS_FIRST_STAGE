@@ -1,0 +1,10 @@
+language: python
+python:
+ - "3.6"
+ #comand to run tests
+ script
+ - py.test teste.py
+ after script:
+ notifications:
+  recipients:
+    -jeanpripko@hotmail.com
